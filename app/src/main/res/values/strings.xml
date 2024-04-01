@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Timetable-App</string>
+
+    <string-array name="MenuTitle">
+        <item> Timetable </item>
+        <item> News </item>
+        <item> Messages </item>
+        <item> Staff </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Access your timetable here </item>
+        <item> Check the latest news this week! </item>
+        <item> Your Messages </item>
+        <item> View staff members on your course </item>
+    </string-array>
+
+    <string-array name="StaffName">
+        <item> Richard Mitchell </item>
+        <item> Martin Lester </item>
+        <item> Hong Wei </item>
+        <item> Lily Sun</item>
+    </string-array>
+
+    <string-array name="StaffEmail">
+        <item> r.j.mitchell@reading.ac.uk </item>
+        <item> m.lester@reading.ac.uk </item>
+        <item> h.wei@reading.ac.uk </item>
+        <item> lily.sun@reading.ac.uk</item>
+    </string-array>
+
+    <string-array name="Sender">
+        <item> UOR </item>
+        <item> Martin Lester </item>
+        <item> Hong Wei </item>
+        <item> UOR </item>
+    </string-array>
+
+    <string-array name="Message">
+        <item> SALE! 40% off all hoodies and merch, head to our merchandise store on campus,
+            located in the  RUSU building. Hurry, sale ends SOON. </item>
+        <item> Reminder, Database Penetration Testing Coursework due in 1 week. As you may
+            have seen, coursework is due in 1 weeks time at noon. If
+            you have any questions, feel free to message asap. </item>
+        <item> The online quiz worth 15% on Operating Systems will be made available on Blackboard
+            on Week 11 at 9am. Make sure you are able to complete this when it opens. </item>
+        <item> An early Merry Christmas to all students at reading celebrating, whether at home or campus! </item>
+    </string-array>
+</resources>

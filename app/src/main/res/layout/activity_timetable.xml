@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A6FF"
+    tools:context=".TimetableActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="659dp"
+        android:fontFamily="@font/alata"
+        android:text="Timetable"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp"
+            android:text="Monday:\n\n13:00 - Applications Lecture - Lily Sun - JJ Thompson\n\n15:00 - Maths Practical - Richard Mitchell - Polly Vacher G56\n\n16:00 - Databases Practical- Martin Lester - Polly Vacher G56"
+            />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp"
+            android:text="Tuesday:\n\n09:00 - Databases Lecture - Martin Lester - JJ Thompson\n\n10:00 - Compilers Lecture - Hong Wei - Palmer 105\n\n12:00 - Applications Practical - Lily Sun - Polly Vacher G56"
+            />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp"
+            android:text="Wednesday:\n\n11:00 - Compilers Lecture - Hong Wei - JJ Thompson\n\n13:00 - Maths Lecture - Richard Mitchell - JJ Thompson\n\n15:00 - Databases Lecture - Martin Lester - Chancellors G14"
+            />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp"
+            android:text="Thursday:"
+            />
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp"
+            android:text="Friday:\n\n10:00 - Compilers Practical - Hong Wei - Polly Vacher G46\n\n14:00 - Applications Practical - Lily Sun - Polly Vacher G56\n\n17:00 - Databases Lecture- Martin Lester - JJ Thompson"
+            />
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

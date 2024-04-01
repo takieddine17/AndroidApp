@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A6FF"
+    tools:context=".MainMenuActivity">
+
+    <TextView
+        android:id="@+id/MenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="572dp"
+        android:fontFamily="@font/alata"
+        android:text="News"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/alata"
+        android:padding="16dp"
+        android:text="The University of Reading is thrilled to announce its annual Christmas Dinner event, set to bring students together for an evening of festive cheer, delicious food, and community spirit. Scheduled for December 20th at the campus's main dining hall, the event promises a delightful array of traditional Christmas dishes, vegetarian options, and sweet treats to satisfy every palate. Doors open at 6 PM, with dinner served at 7 PM. After the feast, stick around for the after-dinner entertainment, including carol singing and a cozy hot chocolate bar. This event is a perfect opportunity to relax and revel in the holiday spirit with fellow students before the winter break. Spaces are limited, it's first come first serve, arrive early. Don’t miss this chance to make merry with friends, enjoy a hearty meal, and create lasting memories at the University of Reading this holiday season. Merry Christmas and we hope to see you there!"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:width="370dp"
+        android:height="70dp"
+        android:fontFamily="@font/alata"
+        android:text=" Festive Feast: Join the Christmas Dinner Celebration at University of Reading"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MenuText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

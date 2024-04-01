@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="120dp"
+        android:layout_width="105dp"
+        android:id="@+id/TimetableImage"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Timetable"
+        android:fontFamily="@font/alata"
+        android:layout_toRightOf="@+id/TimetableImage"
+        android:textSize="24dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TimetableDesc"
+            android:layout_below="@+id/Timetable"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/TimetableImage"
+            android:fontFamily="@font/alata"
+            android:textSize="16dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
